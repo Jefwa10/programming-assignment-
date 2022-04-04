@@ -1,0 +1,34 @@
+//program for addition of five numbers by the user 
+#include<stdio.h>
+
+int main ()
+{
+int v;
+int w;
+int x;
+int y;
+int z;
+int sum;
+//int v,w,x,y,z,sum;
+
+printf("Enter the first number\n");
+scanf("%d",&v);
+
+printf("Enter the second number\n");
+scanf("%d",&w);
+
+printf("Enter the third number\n");
+scanf("%d",&x);
+
+printf("Enter the fourth number\n");
+scanf("%d",&y);
+
+printf("Enter the fifth number\n");
+scanf("%d",&z);
+
+sum=v+w+x+y+z;
+
+printf("The sum of v,w,x,y and z is %d",sum);
+
+return 0;
+}

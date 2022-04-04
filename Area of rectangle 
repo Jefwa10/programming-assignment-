@@ -1,0 +1,21 @@
+//program to find the area of a rectangle
+
+#include<stdio.h>
+
+int main ()
+
+{
+ int area,h,w;
+
+printf("Enter the height of the rectangle\n");
+scanf("%d",&h);
+
+printf("Enter the width of the rectangle\n");
+scanf("%d",&w);
+
+printf("area of a rectangle=%d",area);
+area=h*w;
+
+return 0;
+
+}
